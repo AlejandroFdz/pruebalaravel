@@ -1,0 +1,32 @@
+.set-number textarea, .numbers .line-no {
+  font-family: monospace !important;
+  line-height: normal !important
+}
+
+.set-number {
+  overflow: auto !important;
+  margin: 30px 0 0 9px;
+  width: 106%;
+}
+
+.set-number .lines {
+  margin: 7px 3px 0 0;
+  padding: 0 2px 0 0;
+  min-width: 50px;
+  float: left;  
+}
+
+.set-number .numbers {
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.set-number .numbers .line-no {
+  padding: 0 .5em 0 0;
+  margin: 0;
+  color: #aaa;
+  text-align: right;
+  white-space: nowrap
+}
+

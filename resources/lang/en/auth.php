@@ -15,5 +15,13 @@ return [
 
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'login_title' => 'Login to Correo Hormiga',
+    'email_address' => 'E-mail Address',
+    'password' => 'Password',
+    'remember_me' => 'Remember Me',
+    'login' => 'Login',
+    'register' => 'Register',
+    'login_button' => 'Log In',
+    'forgot_your_password' => 'Forgot your password?',
 
 ];

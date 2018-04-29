@@ -1,0 +1,373 @@
+/** General styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+#app {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 0 !important;
+}
+
+.app-panel .mainmenu .current-item, .topmenu .current-item {
+  font-weight: bold;
+}
+
+.icon-large {
+  font-size: 165px;
+}
+/**
+ * Logo
+ */
+.logo img {
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+/**
+ * Subscriber Contents styles
+ */
+.app-contents {
+  background-color: #fff;
+  float: right;
+}
+
+.app-header {
+  margin-bottom: 40px;
+}
+
+.app-contents h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/**
+ * Topbar styles
+ */
+.topbar {
+  background-color: #f6f6f6;
+}
+.topbar .topmenu {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.topbar .topmenu li {
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 10px 20px;
+  float: left;
+}
+.topbar .topmenu li a {
+  color: #333;
+}
+.topbar .logo h2 {
+  margin:14px 0 0 20px;
+}
+.topbar .subscriber-account-btn {
+  text-align: left;
+  border: none;
+  background: transparent;
+  margin-right: 20px;
+  font-size: 13px;
+  line-height: 21px;
+}
+.topbar .subscriber-account-btn .caret {
+  margin-top: -27px;
+  margin-left: 10px;
+}
+.topbar .top-subscriptor .dropdown {
+  margin-top: 5px;
+}
+.topbar .top-subscriptor .avatar {
+  margin-top: 10px;
+}
+
+/**
+ * Lists styles
+ */
+.list_stats {
+  margin: 0 10px 0 10px;
+  float: left;
+}
+
+.list_stats h4 {
+  font-weight: bold;
+}
+
+.lists_section {
+  background-color: #fff;
+}
+
+.nav-lists {
+  border-bottom: solid 1px #d9d9d9;
+  padding-bottom: 10px;
+  margin: 20px 0 30px 0;
+}
+
+.nav-lists li a {
+  color: #333;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.import-contacts h3 {
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+  min-height: 50px;
+  padding-left: 0px;
+}
+
+.list li {
+  display: inline-block;
+  float: left;
+}
+
+.groups-list li {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.contacts-tag {
+  background-color: #5a7e92;
+  color: #fff;
+  padding: 3px 5px 3px 5px;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+/**
+ * Contact styles
+ */
+.form-subtitles {
+  margin: 40px 0 20px 0;
+  display: block;
+  clear: both;
+}
+
+.form-subtitles i {
+  border-radius: 100%;
+  background-color: #5a7e92;
+  color: #fff;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  line-height: 43px;
+}
+
+.form_inputs {
+  display: block!important;
+}
+
+.form_inputs .form-control {
+  width: 33% !important;
+}
+
+.separate {
+  display: block;
+  margin: 25px 0 25px 0;
+}
+
+.removeGroup, .remove_groups {
+  display: none;
+}
+
+.removeSubmit, .cancelSubmit {
+  background: transparent;
+  border: none;
+}
+
+.subscriber-warning {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.sin-resultados {
+  background-color: #f9f9f9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: -22px 0px 0px 0px;
+}
+
+.table-filter-header {
+  background-color: #f2f2f2;
+}
+
+.table-filter-header input, .table-filter-header select {
+  background-color: #e5e2e2;
+  color: #333;
+  border: none;
+}
+
+.table-filter-header .btn-primary {
+  background-color: #3097d1 !important;
+  color: #fff !important;
+}
+
+.table-filter-header select {
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    background-image: url('../../imgs/select-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+}
+
+.table-filter-header select option {
+  padding: 10px 5px 10px 5px;
+}
+
+.remove-contacts-form {
+  display: none;
+  position: absolute;
+  left: 0px;
+}
+
+.remove-contacts-container {
+  position: relative;
+  top: -49px;
+}
+
+.pagination {
+  margin-top: 60px;
+  display: block;
+}
+
+#template {
+  background-color: #fff;
+}
+
+.template-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.template-list li {
+  max-width: 33%;
+  margin: 20px 10px 0px 10px;
+  text-align: center;
+  min-height: 335px;
+}
+
+.template-list li img {
+  width: 100%!important;
+}
+
+.template-tab {
+  display: block;
+  width: 145px;
+  padding: 5px;
+  background-color: #f7f7f7;
+  float: left;
+  text-align: center;
+}
+
+.template-tab:hover {
+  background-color: #ececec;
+  cursor: pointer;
+}
+
+.template-preview {
+  background-color: #ececec;
+}
+
+.comp-settings {
+  position: absolute;
+  font-size: 22px;
+  z-index: 9;
+}
+
+.btn-settings {
+  position:relative;
+  width:0;
+  height:0;
+  display: none;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.subscription-forms {
+  display: none;  
+}
+
+.subscription-forms textarea {
+  width: 100%;
+  min-height: 280px;
+  font-size: 18px;
+  text-align: left;
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+.form_code {
+  display: none;
+}
+
+#form_text {
+  min-height: 250px;
+  white-space: pre-wrap;
+  border: 1px solid #ccd0d2;
+  padding: 15px;
+}
+
+.template-list a {
+  display: block;
+}
+
+.out-overlay {
+  position: relative;
+  display: block;
+}
+
+.template-list a .overlay {
+  background: linear-gradient(rgba(0,0,0,1), rgba(255,0,0,0));
+  position: absolute;
+  z-index: 9;
+  height: 218px;
+  width: 100%;
+  left: 0;
+}
+
+.template-list a .overlay span {
+  color: #000;
+  margin-top: 40%;
+  background-color: #fff;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px 0 7px 0;
+  border-radius: 4px;
+}
+
+.template-list a .overlay span p {
+  margin-bottom: 0;
+}
+
+.template-list a .overlay span p:first-child {
+  font-weight: bold;
+}
